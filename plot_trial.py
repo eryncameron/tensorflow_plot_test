@@ -2,7 +2,7 @@ import wave
 import numpy as np
 import matplotlib.pyplot as plt
 
-signal_wave = wave.open('voice.wav', 'r')
+signal_wave = wave.open('voice1.wav', 'r')
 sample_rate = 16000
 sig = np.frombuffer(signal_wave.readframes(sample_rate), dtype=np.int16)
 
